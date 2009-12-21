@@ -1,0 +1,53 @@
+<html>
+  <!-- File: states.html
+     Author: James Emrich
+     States file for quizzing a given user
+  -->
+  <head>
+   <title>Naked Productions.US - State Quiz</title>
+   <link rel="StyleSheet" href="style.css" type="text/css" />
+   <script type="text/javascript" src="np.js"></script>
+   <script type="text/javascript" src="random.js"></script>
+   <script type="text/javascript" src="np-database.js"></script>
+  </head>
+  <body onload="welcomeNP();">
+  <center>
+    <marquee><h1>Welcome To The First NakedProductions Quiz Games!</h1></marquee>
+    <div id="frame">
+      <p style="font-size:40px;text-decoration:underline;" height="20px">State Quizzer</p>
+      <div style="display:block;height:20px" id="nameHTML"></div>
+      <img src="http://www.mymavra.com/pinguinalulu-tux-the-batman-penguin-11703.png"></img>
+      <br />
+      <div id="Quizzer">
+        <p1>How many states would you like to be quizzed on?</p1>
+		<div style="display:block;height:20px" id="nameHTML"></div>
+        <input id="questionCountField" class="userINPUT" type="text" maxlength="2" value="0"/>
+        <br />
+        <input class="buttonSS" type="button" onclick="loadFirstQuestion();" value="Go!" />
+      </div>
+      <div id="Quizzer">
+        <p1>What Is The Capital Of:</p1>
+		<div style="display:block;height:20px" id="nameHTML"></div>
+        <input id="questionField" class="state" type="text" value="Capital"/>
+        </p>
+      </div>
+      <div id="QuizzerAnswer">
+        <p1>State Question Answer:</p1>
+		<div style="display:block;height:20px" id="nameHTML"></div>
+        <textarea id="answerField" class="state2" type="text" width="20px" wrap="physical"></textarea>
+        <div style="display:block;"></div>
+        <input class="buttonSS" type="button" onclick="checkAnswer();" value="Go!" />
+      </div>
+      <div id="Quizzer">
+        <p1>Answer: <input id="correctWRONG" class="userINPUT" type="text" /></p1>
+        <div style="display:block;height:12px" id="nameHTML"></div>
+        <p1>Total:  <input id="totalANSWER" class="userINPUT" type="text" /></p1>
+        <div style="display:block;height:12px" id="nameHTML"></div>
+        <p1>Correct:  <input id="corANSWER" class="userINPUT" type="text" /></p1>
+        <div style="display:block;height:12px" id="nameHTML"></div>
+        <p1>Percentage:  <input id="percentS" class="userINPUT" type="text" /></p1>
+      </div>
+    </div>
+  </center>
+  </body>
+</html>

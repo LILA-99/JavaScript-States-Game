@@ -1,0 +1,79 @@
+/*
+NakedProductions.US CSS Written by EvilPenguin|
+*/ 
+
+/*Body Information*/
+body{
+	background-image:url(http://artfractals.com/large/hippy-spirals3.jpg);
+	cursor:;
+}
+a:link{
+	color:yellow;
+}
+a:visited{
+	color:white;
+	text-decoration:underline;
+}
+h1{
+	color:yellow;
+	text-decoration:bold;
+}
+p{
+	color:purple;
+	border: double white;
+	background-color:black;
+	width:400px;
+	height:auto;
+}
+p1{
+	color:red;
+	text-decoration:underline;
+	font-size:14px;
+	border: groove white;
+	height:auto;
+	width:auto;
+	background-color:black;
+}
+#frame{
+	border:double white 3px;
+	background-image:url(http://static.wix.com/media/7b325950a0fdb6db0a9b387a914d9297.wix_mp);
+	width:800px;
+	height:auto;
+}
+.userINPUT{
+	background-color:black;
+	color:yellow;
+	text-align:center;
+	width:75px;
+	height:auto;
+}
+.state{
+	background-color:purple;
+	color:white;
+	text-align:center;
+	width:200px;
+	height:auto;
+	top:0px;
+}
+.state2{
+	background-color:purple;
+	color:white;
+	text-align:center;
+	width:200px;
+	height:auto;
+	top:0px;
+}
+#Quizzer{
+	border:groove black 3px;
+	background-image:url(http://artfractals.com/large/hippy-spirals3.jpg);
+	width:450px;
+	height:auto;
+	color:black;
+}
+#QuizzerAnswer{
+	border:groove black 3px;
+	background-image:url(http://artfractals.com/large/hippy-spirals3.jpg);
+	width:450px;
+	height:auto;
+	color:black;
+}
